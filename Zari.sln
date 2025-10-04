@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UvodniHodina", "UvodniHodina\UvodniHodina.csproj", "{C7CD151F-B446-4AEA-99EA-07E4F1DB8BFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PripravaNaTest", "PripravaNaTest\PripravaNaTest.csproj", "{FE6B1888-2669-4609-ADC7-0816BCD41F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcviceniZakladu", "ProcviceniZakladu\ProcviceniZakladu.csproj", "{5EC48310-402B-4311-954C-6A61B3D26119}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7CD151F-B446-4AEA-99EA-07E4F1DB8BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CD151F-B446-4AEA-99EA-07E4F1DB8BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CD151F-B446-4AEA-99EA-07E4F1DB8BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CD151F-B446-4AEA-99EA-07E4F1DB8BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6B1888-2669-4609-ADC7-0816BCD41F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6B1888-2669-4609-ADC7-0816BCD41F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6B1888-2669-4609-ADC7-0816BCD41F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6B1888-2669-4609-ADC7-0816BCD41F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC48310-402B-4311-954C-6A61B3D26119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC48310-402B-4311-954C-6A61B3D26119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC48310-402B-4311-954C-6A61B3D26119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC48310-402B-4311-954C-6A61B3D26119}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
