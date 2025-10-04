@@ -6,8 +6,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PripravaNaTest", "PripravaN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcviceniZakladu", "ProcviceniZakladu\ProcviceniZakladu.csproj", "{5EC48310-402B-4311-954C-6A61B3D26119}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Září", "Září", "{8B6F343D-654A-42A0-8A1E-A4A94C7CF511}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,8 +26,5 @@ Global
 		{5EC48310-402B-4311-954C-6A61B3D26119}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C7CD151F-B446-4AEA-99EA-07E4F1DB8BFF} = {8B6F343D-654A-42A0-8A1E-A4A94C7CF511}
-		{FE6B1888-2669-4609-ADC7-0816BCD41F64} = {8B6F343D-654A-42A0-8A1E-A4A94C7CF511}
-		{5EC48310-402B-4311-954C-6A61B3D26119} = {8B6F343D-654A-42A0-8A1E-A4A94C7CF511}
 	EndGlobalSection
 EndGlobal
