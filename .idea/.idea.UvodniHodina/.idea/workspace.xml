@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30df911a-bf04-40d1-a924-5a949b53b55d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/UvodniHodina.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Zari.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UvodniHodina/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UvodniHodina/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProcviceniZakladu/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProcviceniZakladu/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.PripravaNaTest">
+  <component name="RunManager" selected=".NET Project.ProcviceniZakladu">
     <configuration name="PripravaNaTest" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -144,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1738434694625</updated>
       <workItem from="1738434696058" duration="513000" />
-      <workItem from="1759597636949" duration="4571000" />
+      <workItem from="1759597636949" duration="6681000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -154,7 +155,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759597879160</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Upravy">
+      <option name="closed" value="true" />
+      <created>1759602419197</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759602419197</updated>
+    </task>
+    <task id="LOCAL-00003" summary="upravy blbostí, pripravaNaTest,">
+      <option name="closed" value="true" />
+      <created>1759602498061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759602498061</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +193,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Upravy" />
+    <MESSAGE value="upravy blbostí, pripravaNaTest," />
+    <option name="LAST_COMMIT_MESSAGE" value="upravy blbostí, pripravaNaTest," />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
