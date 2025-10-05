@@ -30,6 +30,7 @@ class program
 
         foreach (var slovo in slova)
         {
+            // převést slovo na -> Slovo
             char capilatised = (char) (slovo[0] - 32);
             celek += capilatised + slovo.Substring(1);
         }
