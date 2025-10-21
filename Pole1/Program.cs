@@ -60,7 +60,5 @@ class MyClass
             Console.WriteLine($"Koupila sis {item.name1}");
         }
         
-        
-        
     }
 }
