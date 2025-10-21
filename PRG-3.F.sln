@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KamenNuzkyPapir", "KamenNuz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pole1", "Pole1\Pole1.csproj", "{222FA94D-3082-4887-BB5B-C9CF56350972}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{07FF220A-4777-48EE-A7D9-7CF824A2D324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{222FA94D-3082-4887-BB5B-C9CF56350972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{222FA94D-3082-4887-BB5B-C9CF56350972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{222FA94D-3082-4887-BB5B-C9CF56350972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07FF220A-4777-48EE-A7D9-7CF824A2D324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07FF220A-4777-48EE-A7D9-7CF824A2D324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07FF220A-4777-48EE-A7D9-7CF824A2D324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07FF220A-4777-48EE-A7D9-7CF824A2D324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
