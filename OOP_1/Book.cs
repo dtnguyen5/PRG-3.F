@@ -17,7 +17,4 @@ public class Book
         this.year = year;
         this.name = name;
     }
-    
-    
-    
 }
