@@ -1,6 +1,42 @@
 namespace MyNamespace;
 
 public class Student
+/*
+Úloha 2 – Student
+Zadání:
+Vytvořte třídu Student, která uchovává informace o známkách a dokáže vypočítat průměr.
+
+Třída má vlastnosti:
+    string Name
+    int[] Grades – pole známek (1–5)
+
+Má konstruktor, který nastaví jméno a známky.
+
+Obsahuje metody:
+
+    double GetAverage() – vrátí průměr známek
+    void PrintResult() – vypíše jméno, průměr a informaci o prospěchu:
+
+        průměr < 1.5 → výborný
+        1.5–2.5 → chvalitebný
+        2.5–3.5 → dobrý
+        jinak → nedostatečný
+
+Ukázka použití:
+public class Program {
+    public static void Main(string[] args){
+        var student = new Student("Petr", new int[] {1, 2, 1, 1, 2});
+        student.PrintResult();
+    }
+}
+--- Konzole ---
+/*
+Student: Petr
+Průměr: 1.40
+Prospěch: výborný
+* /
+ */
+
 {
     // <---------------------- Vlastnosti třídy ---------------------->
     public string Name { get; set; }

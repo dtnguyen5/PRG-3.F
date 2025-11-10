@@ -1,9 +1,34 @@
 ﻿using System;
 using System.Threading;
 
-namespace MyNamespace
-{
+namespace MyNamespace;
     class Program
+    /*
+     Úloha 4 – Traffic Simulation
+        Zadání:
+        Simulujte jednoduchý dopravní pruh, ve kterém se auta posouvají doleva.
+
+            Vytvořte pole road délky 10, kde:   
+                0 = prázdné místo
+                1 = auto
+
+            Na začátku náhodně rozmístěte několik aut (např. 3–5 kusů).
+
+            Vytvořte metodu static void MoveCars(int[] arr), která:
+                posune všechna auta o 1 pozici doleva (auto ze začátku pole se „ztratí“)
+                
+            V každém kroku vykreslete stav silnice (_ = prázdné, 🚗 = auto).
+
+        Ukázka výstupu:
+        |_|_|🚗|_|_|🚗|_|🚗|_|_|   // jak vykreslíte mezery je zcela na Vás, zde je použit znak "|"
+        |_|🚗|_|_|🚗|_|🚗|_|_|_|
+        |🚗|_|_|🚗|_|🚗|_|_|_|_|  
+        💡 Bonus: Přidejte cyklus, který bude animaci opakovat několikrát (např. 5 tahů).
+
+        Využijte
+        Console.Clear(); // vyčistí konzoli
+        Thread.Sleep(50); // pozastaví program na 50 ms, čas si upravte dle potřeb
+     */
     {
         // metoda pro posun aut doleva
         static void MoveCars(int[] arr)
@@ -58,4 +83,3 @@ namespace MyNamespace
             }
         }
     }
-}

@@ -1,6 +1,27 @@
 ﻿namespace MyNamespace;
 
 class Program
+/*
+Úloha 3 – Teploměr
+Zadání:
+Vytvořte program, který uchovává teploty za jednotlivé dny v poli.
+
+    Vytvořte pole temperatures o délce 7 (týdenní teploty).
+
+    Naplňte ho náhodnými čísly od -5 do 25.
+
+    Vypište všechny hodnoty a:
+        nejvyšší teplotu
+        nejnižší teplotu
+        průměrnou teplotu
+
+Ukázka výstupu:
+Teploty: [4, 10, -2, 18, 25, 12, 6]
+Nejnižší teplota: -2 °C
+Nejvyšší teplota: 25 °C
+Průměrná teplota: 10.43 °C
+💡 Bonus: Přidejte zjištění, kolik dní bylo nad 10 °C.
+ */
 {
     public static void Main(string[] args)
     {
