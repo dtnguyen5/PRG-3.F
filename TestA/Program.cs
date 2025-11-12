@@ -11,8 +11,8 @@ class Prorgram
 
         // úkol 2
         int[] board = { 0, 1, 0,
-            2, 0, 1,
-            0, 2, 0 };
+                        2, 0, 1,
+                        0, 2, 0 };
 
         for (int i = 0; i < board.Length; i++)
         {
