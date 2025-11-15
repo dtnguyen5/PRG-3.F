@@ -6,8 +6,8 @@ class Prorgram
     {
         // úkol 1
         Light l1 = new Light("Koupelna", false);
-        l1.Toggle(); // vypíše se:  v Koupelna svítí světlo.
-        l1.Toggle(); //             v Koupelna nesvítí světlo.
+        l1.Toggle(); // v Koupelna svítí světlo.
+        l1.Toggle(); // v Koupelna nesvítí světlo.
 
         // úkol 2
         int[] board = { 0, 1, 0,
