@@ -3,9 +3,9 @@
 Objektově orientované programování (OOP) je programovací paradigma, které organizuje kód do objektů.
 
 - Každý objekt kombinuje
-  - stav (atributy)
-  - chování (metody)
-- Objekty spolu komunikují pomocí volání metod a předávání zpráv/argumentů.
+  - **stav** (atributy)
+  - **chování** (metody)
+- Objekty spolu komunikují pomocí volání metod a předávání argumentů.
 
 Principy (stručně):
 - Zapouzdření (Encapsulation) — skrývání interní implementace a vystavení veřejného rozhraní.
@@ -15,30 +15,38 @@ Principy (stručně):
 
 ---
 
-## Procedurální vs. objektový přístup (C# pohled)
+## Procedurální vs. objektový přístup
 
-Procedurální přístup:
-- Program je sada funkcí/metod a sdílených dat.
-- Jednodušší pro malé úlohy, méně vhodný pro velké systémy kvůli udržovatelnosti.
+### Procedurální přístup
 
-Objektový přístup:
-- Program je rozdělen do tříd a instancí (objektů).
-- Lepší modularita, znovupoužitelnost a rozšiřitelnost, ale vyžaduje více návrhové práce.
+- Organizace: Program se skládá z funkcí (procedur) a sdílených dat.
+- Struktura: Kód je sled instrukcí a volání funkcí.
+- Výhody: Jednodušší pro malé úlohy, přímočarý tok programu.
+- Nevýhody: Hůře udržovatelný a rozšiřitelný pro větší projekty, problém s globálním stavem.
+
+### Objektově orientovaný přístup
+
+- Organizace: Program je rozdělen do tříd a objektů; každý objekt obsahuje data a metody.
+- Struktura: Využívá zapouzdření, dědičnost a polymorfismus; vede k modulární a rozšiřitelné struktuře.
+- Výhody: Lepší organizace kódu, znovupoužitelnost, snazší údržba.
+- Nevýhody: Může zvýšit složitost návrhu a mít mírnou režii.
 
 ---
 
 ## Úkol
-Jaké objekty by měla aplikace z minulého cvičení (2d ArrayList - seznam Tříd)?
-- Např. Class (Třída), Student, Schedule, Subject, Teacher — záleží na zadání; každý z nich by měl vlastní data a metody.
+
+Jaké objekty by měla aplikace z minulého cvičení (2d ArrayList - seznam Tříd)
+
+- Např.: Class (Třída), Student, Schedule, Subject, Teacher — každý s vlastními poli a metodami.
 
 ---
 
-## Příklad jednoduché hry OOP.Blackjack (přeloženo a upraveno do C#)
+## Příklad jednoduché hry OOP.Blackjack
 
-Níže jsou dvě verze téže zjednodušené hry: procedurální a objektově orientovaná v C#.
-Obě verze používají zjednodušenou logiku: karty mají hodnoty 1–11, ciljíme na 21, bez pravidel pro eso apod.
+Níže jsou dvě verze téže zjednodušené hry: procedurální a objektově orientovaná v C#. Obě verze používají zjednodušenou logiku: karty mají hodnoty 1–11, cílíme na 21, bez pravidel pro esa apod.
 
-### 1) Procedurální přístup (C#)
+### Procedurální přístup (C#)
+
 ```csharp
 // ProceduralBlackjack.cs
 using System;
@@ -70,15 +78,15 @@ class ProceduralBlackjack
         if (decision.Equals("ano", StringComparison.OrdinalIgnoreCase))
         {
             playerScore += DrawCard();
-            Console.WriteLine($"Nové skóre hráče: {playerScore}");
+            Console.WriteLine($"Nové skóre: {playerScore}");
         }
 
-        // Dealer si lízne dvě karty (jednoduché pravidlo)
+        // Dealer si lízne dvě karty
         dealerScore += DrawCard();
         dealerScore += DrawCard();
         Console.WriteLine($"Dealerovo skóre: {dealerScore}");
 
-        // Vyhodnocení
+        // Vyhodnocení výsledku
         if (playerScore > 21)
             Console.WriteLine("Hráč prohrál – přetáhl jsi!");
         else if (dealerScore > 21 || playerScore > dealerScore)
@@ -91,14 +99,13 @@ class ProceduralBlackjack
 }
 ```
 
-Poznámka: tato verze má logiku rozptýlenou v jedné třídě/metodách a používá primitivní stav v lokálních proměnných.
+*V této verzi je logika rozptýlena v jedné třídě a používají se lokální proměnné pro stav hry.*
 
 ---
 
-### 2) Objektově orientovaný přístup (C#)
+### Objektově orientovaný přístup (C#)
 
-Rozdělíme program do tříd: Card, Deck, Player a BlackjackGame (Program).
-Třídy zjednodušují odpovědnosti, zvyšují čitelnost a usnadňují rozšíření.
+Rozdělíme logiku do tříd: Card, Deck, Player a BlackjackGame.
 
 ```csharp
 // OOPBlackjack.cs
@@ -120,7 +127,7 @@ namespace OOPBlackjack
         public override string ToString() => Value.ToString();
     }
 
-    // Balíček karet (základní implementace)
+    // Balíček karet
     public class Deck
     {
         private readonly List<Card> cards;
@@ -222,22 +229,15 @@ namespace OOPBlackjack
 }
 ```
 
-Výhody této OOP verze:
-- Jasné rozdělení zodpovědností (Deck se stará o karty, Player o ruku, atd.).
-- Snadné přidání nových pravidel (např. esa s hodnotou 1/11, strategie dealera, více hráčů).
-- Díky třídám lze snadno psát testy pro jednotlivé části (např. testovat GetScore, DrawCard, Shuffle).
+Výhody OOP verze:
+- Jasné rozdělení zodpovědností (Deck se stará o karty, Player o ruku).
+- Snadnější rozšíření (esa, více hráčů, strategie dealera).
+- Snadnější testování jednotlivých částí (DrawCard, GetScore, Shuffle).
 
 ---
 
-## Shrnutí (C# kontext)
-- OOP v C# znamená rozdělit logiku do tříd a instancí, využít vlastnosti jazyka (generika, vlastnosti, kolekce).
-- Procedurální kód je OK pro malé ukázky, OOP přístup lépe škáluje a usnadňuje údržbu.
-- Další rozšíření hry: správné hodnocení es (A jako 1 nebo 11), více hráčů, sázení, UI (konzolové nebo GUI), unit testy.
+## Shrnutí
 
----
-
-Pokud chcete, mohu:
-- vytvořit samostatné .cs soubory z ukázek připravené ke kompilaci (pojmenuju je ProceduralBlackjack.cs a OOPBlackjack.cs),
-- přidat podporu pro esa (A jako 1 nebo 11) a správná pravidla Blackjacku,
-- nebo převést přístup do více tříd (např. interface IPlayer, třídy HumanPlayer/DealerPlayer).
-Co preferujete dál?
+- OOP v C# rozdělí logiku do tříd a instancí, využívá vlastnosti jazyka (generika, vlastnosti, kolekce).
+- Procedurální kód je vhodný pro malé ukázky; OOP lépe škáluje a usnadňuje údržbu.
+- Typické rozšíření: správné hodnocení es (1 nebo 11), více hráčů, sázení, uživatelské rozhraní nebo unit testy.
