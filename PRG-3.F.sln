@@ -32,6 +32,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo1", "Demo1\Demo1.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenSwitch2", "GoldenSwitch2\GoldenSwitch2.csproj", "{40418376-1A28-4DDA-8449-D6A1E34D31BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessThePin", "GuessThePin\GuessThePin.csproj", "{61DC7D4F-E43D-4EC6-A3D5-E9234B95E40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjednavkaPizzy", "ObjednavkaPizzy\ObjednavkaPizzy.csproj", "{63CE9AB4-7F5E-4986-AD77-DC54E7746FE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HodnoceniTestu", "HodnoceniTestu\HodnoceniTestu.csproj", "{032A7238-FB61-408F-93FD-AAA04CF85B9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,6 +108,18 @@ Global
 		{40418376-1A28-4DDA-8449-D6A1E34D31BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40418376-1A28-4DDA-8449-D6A1E34D31BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40418376-1A28-4DDA-8449-D6A1E34D31BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61DC7D4F-E43D-4EC6-A3D5-E9234B95E40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61DC7D4F-E43D-4EC6-A3D5-E9234B95E40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61DC7D4F-E43D-4EC6-A3D5-E9234B95E40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61DC7D4F-E43D-4EC6-A3D5-E9234B95E40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63CE9AB4-7F5E-4986-AD77-DC54E7746FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CE9AB4-7F5E-4986-AD77-DC54E7746FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CE9AB4-7F5E-4986-AD77-DC54E7746FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CE9AB4-7F5E-4986-AD77-DC54E7746FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032A7238-FB61-408F-93FD-AAA04CF85B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032A7238-FB61-408F-93FD-AAA04CF85B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032A7238-FB61-408F-93FD-AAA04CF85B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032A7238-FB61-408F-93FD-AAA04CF85B9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
